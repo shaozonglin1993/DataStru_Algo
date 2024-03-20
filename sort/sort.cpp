@@ -513,7 +513,7 @@ void DigitSort(int* a, size_t size)
 			int num = (a[i] / curDigit) % 10;
 			count[num]++;
 		}
-		memcpy(start, count, size*sizeof(int));
+		memcpy(start, count, 10*sizeof(int));
 		//计算个位数为[0-9]的数在桶里起始位置
 		for (size_t i = 1; i < 10; i++)
 		{
