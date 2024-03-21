@@ -15,7 +15,7 @@ using namespace std;
 
 void test()
 {
-	BitMap bm1(100);
+	BitMap bm1(1);
 	bm1.Set(1);
 	bm1.Set(33);
 	bm1.Set(69);
