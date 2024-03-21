@@ -27,3 +27,6 @@ seqList
 
 generalizedList
 > 实现了非线性的数据结构广义表
+
+symmetricMatrix
+> 目前实现了对称矩阵压缩存储，未实现的还有三角矩阵（上三角、下三角），三对角矩阵、稀疏矩阵等
