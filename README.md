@@ -24,3 +24,6 @@ forwardList
 
 seqList
 > 实现了顺序表
+
+generalizedList
+> 实现了非线性的数据结构广义表
